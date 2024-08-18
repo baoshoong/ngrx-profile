@@ -1,0 +1,2 @@
+@for (profile of (profile$ | async)?.profiles; track $index){
+  <app-profile-card [profile]="profile"></app-profile-card>
